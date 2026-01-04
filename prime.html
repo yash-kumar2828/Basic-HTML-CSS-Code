@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="show"></p>
+   <button onclick="prime()">submit</button>
+    <script>
+        function prime(){
+          let count=0;
+          let n=parseInt(prompt("enter a number"));
+          for(let i=0;i<=n;i++)
+          {
+            if(n%i==0)
+            count++;
+          }
+          (count==2)? alert(n + " is prime"):alert(n+"is not prime")
+        }
+    </script>
+</body>
+</html>

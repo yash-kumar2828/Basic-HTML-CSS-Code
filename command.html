@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatting in JavaScript</title>
+</head>
+<body>
+    <div id="formattedText"></div>
+    <script>
+        const formattedString = `
+            <h1 style="color: blue;">Hello, World!</h1>
+            <p style="font-size: 20px;">This is a <strong>bold</strong> paragraph.</p>
+            <p style="font-size: 18px; font-style: italic;">This is an <em>italic</em> paragraph.</p>
+            <p style="text-decoration: underline;">This is an underlined paragraph.</p>
+        `;
+        document.getElementById('formattedText').innerHTML = formattedString;
+    </script>
+</body>
+</html>

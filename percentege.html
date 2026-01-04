@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Percentage of BCA 2nd semester</h2>
+    <script>
+        var CFOA=parseInt(prompt("Enter CFOA Marks"));
+        var Math=parseInt(prompt("Enter Math Marks"));
+        var POM=parseInt(prompt("Enter POM Marks"));
+        var AdvC=parseInt(prompt("Enter AdvC Marks"));
+        var Tally=parseInt(prompt("Enter Tally Marks"));
+        var Lab=parseInt(prompt("Enter Lab Marks"));
+        function Percentage(num1,num2,num3,num4,num5,num6){
+            var x=num1+num2+num3+num4+num5+num6;
+            var z=x/600*100;
+            return z;
+        }
+        var Total=Percentage(CFOA, Math, POM, AdvC, Tally, Lab);
+        document.write("Total percentage is:" +Total+"%")
+    </script>
+</body>
+</html>

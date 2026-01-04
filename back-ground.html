@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            background-color:yellow;
+        }
+        .bg-red {
+            background-color: #ff0000;
+        }
+
+        .bg-green {
+            background-color: #00ff00;
+        }
+
+        .bg-blue {
+            background-color: #0000ff;
+        }
+        .bg-image1 {
+            background-image: url('yyyyy.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        .bg-image2 {
+            background-image: url('kkkkk.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-gradient1 {
+            background-image: linear-gradient(to bottom, #ff0000, #00ff00);
+        }
+        .bg-gradient2 {
+            background-image: linear-gradient(to bottom, #00ff00, #0000ff);
+        }
+    </style>
+</head>
+<body>
+    <h1>Change Backgrounds</h1>
+    <button onclick="document.body.className = 'bg-red'">Red Background</button><br><br>
+    <button onclick="document.body.className = 'bg-green'">Green Background</button><br><br>
+    <button onclick="document.body.className = 'bg-blue'">Blue Background</button><br><br>
+    <button onclick="document.body.className = 'bg-image1'">Image 1 Background</button><br><br>
+    <button onclick="document.body.className = 'bg-image2'">Image 2 Background</button><br><br>
+    <button onclick="document.body.className = 'bg-gradient1'">Gradient 1 Background</button><br><br>
+    <button onclick="document.body.className = 'bg-gradient2'">Gradient 2 Background</button><br><br>
+</body>
+</html>
